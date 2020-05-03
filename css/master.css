@@ -1,0 +1,164 @@
+body{
+  font-family: sans-serif;
+}
+#wrapper{
+  background: #f1f1f1;
+  display: flex;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+header{
+  display: fixed;
+  position: fixed;
+  left: 0;
+  width: 28.3%;
+  height: 10%;
+  background: #e1e1e1;
+  color: black;
+  z-index: 2;
+}
+nav{
+  background: #e1e1e1;
+  height: 7.5%;
+  top: 25px;
+  width: 29.3%;
+  position: fixed;
+  right: -1%;
+  background-color: none;
+  z-index: 2;
+}
+.btn{
+  padding: 10px 10px;
+  border: solid 2px Black;
+  background-color: transparent;
+}
+.btn:hover{
+  font-size: 14px;
+  padding: 9px 9px;
+  background-color: cyan;
+}
+#left45{
+  position: fixed;
+  top: 11px;
+  left: 30%;
+  background-color: cyan;
+  width: 5px;
+  height: 101px;
+  transform: rotateZ(45deg);
+  z-index: 3;
+}
+#right45{
+  position: fixed;
+  top: 11px;
+  right: 30%;
+  background-color: cyan;
+  width: 5px;
+  height: 101px;
+  transform: rotateZ(-45deg);
+  z-index: 3;
+}
+#bottomnav{
+  position: fixed;
+  right: 0;
+  top: 10%;
+  background: cyan;
+  width: 28.35%;
+  height: 5px;
+  z-index: 3;
+}
+#bottomheader{
+  position: fixed;
+  left: 0;
+  top: 10%;
+  background: cyan;
+  width: 28.35%;
+  height: 5px;
+  z-index: 3;
+}
+#top{
+  position: fixed;
+  top: 24px;
+  left: 31.9%;
+  right: 33%;
+  background: cyan;
+  width: 36.2%;
+  height: 5px;
+  z-index: 3;
+}
+.StartBTN{
+position: fixed;
+left: 20%;
+top: 25px;
+padding: 10px 10px;
+border: solid 2px Black;
+background-color: transparent;
+}
+.StartBTN:hover{
+  font-size: 14px;
+  padding: 9px 9px;
+  background-color: cyan;
+}
+#blocktop{
+  width: 100%;
+  height: 25px;
+  position: fixed;
+  background: #e1e1e1;
+  top: 0;
+  z-index: 2;
+}
+#box45right{
+  top: -1%;
+  position: fixed;
+  background: #e1e1e1;
+  height: 10.5%;
+  width: 3%;
+  right: 27.65%;
+  transform: rotateZ(135deg);
+  z-index: 2;
+}
+#box45left{
+  top: -1%;
+  position: fixed;
+  background: #e1e1e1;
+  height: 10.5%;
+  width: 3%;
+  left: 27.65%;
+  transform: rotateZ(-135deg);
+  z-index: 2;
+}
+#mainasidewrapper{
+  width: 100%;
+  height: 89%;
+  display: flex;
+}
+main{
+  margin-left: 10px;
+  background-color: inherit;
+  height: 100%;
+  width: 75%;
+}
+aside{
+  background-color: inherit;
+  height: 100%;
+  width: 30%;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+#infowrapper{
+  width: 100%;
+  height: 2000px;
+}
+#spacer{
+  height: 4.9%;
+  width: 100%;
+}
+a{
+  color: black;
+  font-size: 18px;
+}
+#active{
+  background-color: darkgrey;
+}
